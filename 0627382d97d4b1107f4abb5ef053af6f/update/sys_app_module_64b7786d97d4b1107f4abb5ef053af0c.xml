@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="AODD">28b7786d97d4b1107f4abb5ef053af09</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>AODDs</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1068059_aodd_aodd</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1068059_aodd.aodd_user,x_1068059_aodd.AODD Customer,x_1068059_aodd.AODD Expert</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 14:26:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64b7786d97d4b1107f4abb5ef053af0c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>OS Images</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AODD" source="x_1068059_aodd">0627382d97d4b1107f4abb5ef053af6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AODD">0627382d97d4b1107f4abb5ef053af6f</sys_scope>
+        <sys_update_name>sys_app_module_64b7786d97d4b1107f4abb5ef053af0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 19:28:50</sys_updated_on>
+        <timeline_page/>
+        <title>OS Images</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

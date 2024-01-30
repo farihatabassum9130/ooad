@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="OS_image  Request">f28c997f977031107f4abb5ef053af06</sc_cat_item>
+        <sc_category display_value="Software">2809952237b1300054b6a3549dbe5dd4</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-28 13:27:03</sys_created_on>
+        <sys_id>a2fcd5bf977031107f4abb5ef053af2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Software.OS_image  Request</sys_name>
+        <sys_package display_value="AODD" source="x_1068059_aodd">0627382d97d4b1107f4abb5ef053af6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AODD">0627382d97d4b1107f4abb5ef053af6f</sys_scope>
+        <sys_update_name>sc_cat_item_category_a2fcd5bf977031107f4abb5ef053af2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-28 13:27:03</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

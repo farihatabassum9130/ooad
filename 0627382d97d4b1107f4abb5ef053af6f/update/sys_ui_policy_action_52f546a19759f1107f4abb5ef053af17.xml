@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>us_east_pin</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-15 13:11:46</sys_created_on>
+        <sys_id>52f546a19759f1107f4abb5ef053af17</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>us_east_pin</sys_name>
+        <sys_package display_value="AODD" source="x_1068059_aodd">0627382d97d4b1107f4abb5ef053af6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AODD">0627382d97d4b1107f4abb5ef053af6f</sys_scope>
+        <sys_update_name>sys_ui_policy_action_52f546a19759f1107f4abb5ef053af17</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-15 13:17:45</sys_updated_on>
+        <table>x_1068059_aodd_aodd</table>
+        <ui_policy display_value="Making Region Mandatory and Visible on ">4e858aad9719f1107f4abb5ef053afda</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

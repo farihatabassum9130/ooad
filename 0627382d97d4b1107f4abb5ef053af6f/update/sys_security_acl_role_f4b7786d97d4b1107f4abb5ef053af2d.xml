@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 14:26:28</sys_created_on>
+        <sys_id>f4b7786d97d4b1107f4abb5ef053af2d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1068059_aodd_aodd.x_1068059_aodd.AODD Expert</sys_name>
+        <sys_package display_value="AODD" source="x_1068059_aodd">0627382d97d4b1107f4abb5ef053af6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AODD">0627382d97d4b1107f4abb5ef053af6f</sys_scope>
+        <sys_security_acl display_value="x_1068059_aodd_aodd">fcb7786d97d4b1107f4abb5ef053af2a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_f4b7786d97d4b1107f4abb5ef053af2d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 19:56:16</sys_updated_on>
+        <sys_user_role display_value="x_1068059_aodd.AODD Expert" name="x_1068059_aodd.AODD Expert">23c191619758b1107f4abb5ef053afb5</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

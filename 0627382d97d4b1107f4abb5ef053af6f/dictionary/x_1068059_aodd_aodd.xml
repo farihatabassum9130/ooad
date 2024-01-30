@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="5197f46d97d4b1107f4abb5ef053af0e" label="OS Images" max_length="40" name="x_1068059_aodd_aodd" type="collection">
+        <element label="AD Groups" max_length="32" name="ad_groups" reference="sys_user_group" type="reference"/>
+        <element label="AD Users " max_length="32" name="ad_users" reference="sys_user" reference_qual="javascript: new AdvancedReffQualifier().getADUsers();" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Business Justification" max_length="40000" name="business_justification" type="string"/>
+        <element label=" Date of Issue" max_length="40" name="date_of_issue" type="glide_date_time"/>
+        <element label="Name Value Pair" max_length="40" name="name_value_pair" type="simple_name_values"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" display="true" label="Region " max_length="40" name="region" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="US-Central" value="US-Central"/>
+                <element inactive_on_update="false" label="US-East" value="US-East"/>
+                <element inactive_on_update="false" label="US-West" value="US-West"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="region" dependent_on_field="region" label="Sub-Region" max_length="40" name="sub_region" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="US-East" inactive_on_update="false" label="A1" value="A1"/>
+                <element dependent_value="US-East" inactive_on_update="false" label="A2" value="A2"/>
+                <element dependent_value="US-Central" inactive_on_update="false" label="B1" value="B1"/>
+                <element dependent_value="US-Central" inactive_on_update="false" label="B2" value="B2"/>
+                <element dependent_value="US-West" inactive_on_update="false" label="C1" value="C1"/>
+                <element dependent_value="US-West" inactive_on_update="false" label="C2" value="C2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="US-EAST Pin" max_length="40" name="us_east_pin" type="string"/>
+        <index name="index">
+            <element name="ad_groups"/>
+        </index>
+        <index name="index2">
+            <element name="ad_users"/>
+        </index>
+    </element>
+</database>
